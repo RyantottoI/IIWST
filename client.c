@@ -7,6 +7,8 @@ Il software deve permettere:
 - L’upload di un file sul server (comando put);
 - Il trasferimento file in modo affidabile.
 
+
+
 La comunicazione tra client e server deve avvenire tramite un opportuno protocollo. Il protocollo di comunicazione deve prevedere lo scambio di due tipi di messaggi:
 1) messaggi di comando: vengono inviati dal client al server per richiedere l’esecuzione delle diverse operazioni;
 2) messaggi di risposta: vengono inviati dal server al client in risposta ad un comando con l’esito dell’operazione.
